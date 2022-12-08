@@ -1,24 +1,26 @@
 .headerNav{
-    background-color: #fbf3f8;
+    background-color: #f4f3fb;
 	top: 0px;
 }
 
 .navbar{
     justify-content: space-around;
-    color: #aa1a78;
 }
 
+.carrito {
+    color: white;
+    background-color: #e9c5dc;
+    border-color: rgb(99, 99, 99);
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.carrito:hover {
+    color: #313131;
+}
 .navbar-center{
     color: #dfa0c9;
-}
-
-.menu{
-    display: flex;
-    margin-top: 100px;
-    justify-content: space-between;
-    background-color: #FBF3F8;
-    height: 90px;
-
 }
 
 .NavBarContainer{
@@ -36,7 +38,7 @@
 
 .divLista ul a{
                     text-decoration: none;
-                    color: #dfa0c9;
+                    color: rgb(75, 75, 75);
                     font-size: 15px;
                     text-align: center;
                     list-style:none;
@@ -45,19 +47,24 @@
 
 .ulLista{
     display: flex;
-    
 }
 
 .licolor li:hover{
-    color: rgb(0, 0, 0);
+    color: #dfa0c9;
 }
 
+
 .active{
-    color: #dfa0c9;
+    background-color: #a5a5a541;    
+    color: #ffffff;
     text-transform: uppercase;
     flex-direction: row;
     margin-left: 70px;
     font-size: 20px;
+}
+
+.active:hover{
+    color: #dfa0c9;
 }
 
 .inactive{
@@ -65,9 +72,8 @@
     text-transform: uppercase;
     flex-direction: row;
     margin-left: 70px;
-    font-size: 20px;
-}
+    font-size: 20px;}
 
-.inactive:hover {
-    color: #dfa0c9;
-  }
+    .inactive:hover {
+        color: #dfa0c9;
+      }

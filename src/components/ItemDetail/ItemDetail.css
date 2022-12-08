@@ -1,11 +1,27 @@
 .cardProductDetail{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 1.5rem;
-    justify-items: center;
-    grid-row-gap: 2rem;
+    display: flex;
+    justify-content: space-around;
     margin-top: 40px;
     margin-bottom: 50px;
+}
+.card-body{
+    background-color: #e2cad9;
+    border-radius: 10px;
+    border-color: e2cad9;
+}
+.imgDetail{
+    width: 800px;
+}
+    
+.button:hover {
+background-color: rgba(187, 135, 171, 0.301);
+color: #e2cad9
+};
+
+
+.buttomsFlex{
+    display: flex;
+    margin:10px 10px 10px 10px;
 }
 
 .colorTexto{
@@ -21,3 +37,29 @@
     width: 100%;
     align-items: center;
 }
+
+.imgDetail{
+    width: 500px;
+}
+
+@media screen and (max-width: 1240px) {
+   
+    .cardProductDetail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        background-color: rgba(185, 154, 176, 0.685);
+    }
+
+    .imgDetail{
+        margin-bottom: 15px;
+    }
+
+    .buttomsFlex{
+        display: grid;
+    }
+
+   
+};
